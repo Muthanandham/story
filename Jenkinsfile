@@ -2,11 +2,7 @@ pipeline {
   agent any
 
   environment {
-    NG_CLI_ANALYTICS = "false" // Disables Angular CLI telemetry
-  }
-
-  tools {
-    nodejs "NodeJS 18" // Optional: only if you configured NodeJS in Jenkins tools
+    NG_CLI_ANALYTICS = "false"
   }
 
   stages {
